@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b9770b47e6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+        <div class="container bg-white">
+            <nav class="navbar bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand"><i class="fa-brands fa-instagram"></i> <span class="type-fond"> <strong>Instagram</strong></span></a>
+                <!-- Button trigger modal -->
+                <div class="container d-flex justify-content-end align-items-center w-10">
+                <button type="button me-2" class="btn btn-success btn-sm button-modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Create New Post</button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Comment">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex  " >
+                    <div class="icon1"><i class="fa-solid fa-camera" id="icon-modal" ></i></div>
+                    <div class="icon1"><i class="fa-solid fa-location-dot"id="icon-modal" ></i></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+              <!--Dropdown -->
+                    <div class="dropdown ml-5">
+                        <a class="nav-link dropdown-toggle ml-5" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  ><i class="fa-solid fa-gear pr-5"></i></a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <br>
+                        <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+     </div>
+        <!-- </div> -->
+        <div class="row bg-white" role="tabpanel">
+            <ul class="nav nav-pills mt-3 mb-3 bg-white justify-content-center ml-3" id="pills-tab" role="tablist">
+                <li class="nav item" role="presentation">
+                    <button class="nav-link active ml-3" id="pill-home-tab" data-bs-toggle="pill" data-bs-target="#pill-home" type="button"
+                    role="tab" aria-controls="pill-home" aria-selected="true">
+                    <a href="#section1" aria-controls="seccion1" data-bs-toggle="" role="tab"> <i class="fa-solid fa-border-all" id="icon-g"></i></a>
+                    </button>
+                </li>
+                <li class="nav item bg-gray" role="presentation">
+                    <button class="nav-link active" id="pill-home-tab" data-bs-toggle="pill" data-bs-target="#pill-profile" type="button"
+                    role="tab" aria-controls="pill-home" aria-selected="true">
+                   <a href="index_card.html"aria-controls="seccion2" data-bs-toggle="" role="tab" ><i class="fa-solid fa-square" id="icon-g"></i></a>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content">
+        <div class="tab-content bg-white" id="grilla">
+        <div class="container tap-panel active" role="tabpanel" id="section1" >
+            <div class="row">
+                <div class="col-md-5 col-lg-4 gx-1 mb-1">
+                    <img src="https://picsum.photos/400/200?radndom=1" class="w-100 imagenes-grilla" alt="">
+                </div>
+                <div class="col-md-5 col-lg-4 gx-1">
+                    <img src="https://picsum.photos/400/200?radndom=2" class="w-100 imagenes-grilla" alt="">
+                </div>
+                <div class="col-md-5 col-lg-4 gx-1">
+                    <img src="https://picsum.photos/400/200?radndom=3" class="w-100 imagenes-grilla" alt="">
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-5 col-lg-4 gx-1 mb-1">
+                <img src="https://picsum.photos/400/200?radndom=4" class="w-100 imagenes-grilla"  alt="">
+            </div>
+            <div class="col-md-5 col-lg-4 gx-1">
+                <img src="https://picsum.photos/400/200?radndom=5" class="w-100 imagenes-grilla" alt="">
+            </div>
+            <div class="col-md-5 col-lg-4 gx-1">
+                <img src="https://picsum.photos/400/200?radndom=6" class="w-100 imagenes-grilla" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 gx-1 mb-4">
+                <img src="https://picsum.photos/400/200?radndom=7" class="w-100 imagenes-grilla" alt="">
+            </div>
+            <div class="col-md-6 col-lg-4 gx-1">
+                <img src="https://picsum.photos/400/200?radndom=8" class="w-100 imagenes-grilla" alt="">
+            </div>
+            <div class="col-md-6 col-lg-4 gx-1">
+                <img src="https://picsum.photos/400/200?radndom=9" class="w-100 imagenes-grilla" alt="">
+            </div>
+        </div>
+    </div>
+<!--  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
